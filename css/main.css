@@ -15,6 +15,7 @@ body {
     background-size: cover;
 }
 h1 {
+    margin: 0;
     text-align: center;
     font-size: 55px;
     color: #20b4bb;
@@ -22,7 +23,8 @@ h1 {
     font-family: "Arial";
 }
 h2 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
     text-align: center;
     font-size: 36px;
     color: #bcbcbd;
@@ -78,9 +80,11 @@ h2 {
     font-weight: bold;
     font-family: "Arial";
 }
-.present a{
-    margin-left: 113px;
+.present{
     text-align: center;
+}
+.present a{
+    display: inline-block;
     padding: 13px 48px;
     background-color: #9f15a9;
     text-decoration: none;
@@ -92,7 +96,6 @@ h2 {
     font-family: "Arial";
 }
 .present b{
-    margin-left: 90px;
     font-size: 12px;
     line-height: 22px;
     color: #85908c;
@@ -146,15 +149,15 @@ h2 {
     padding: 0 0 40px 0;
 }
 .live p{
+    display: inline-block;
     margin-bottom: 55px;
-    padding: 0 55px;
+    padding: 0 40px;
     font-size: 14px;
     line-height: 22px;
     color: #86918c;
     font-family: "Arial";
 }
 .live a{
-    height: 200px;
     font-size: 14px;
     line-height: 22px;
     color: #e8a336;
@@ -166,9 +169,11 @@ h2 {
     color: #fa5d26;
     font-family: "Arial";
 }
-.live b{
-    margin-left: 113px;
+h6{
     text-align: center;
+}
+.live1 a{
+    display: inline-block;
     padding: 13px 48px;
     background-color: #9f15a9;
     text-decoration: none;
@@ -181,7 +186,7 @@ h2 {
 }
 .finish{
     margin: 0;
-    padding: 125px 0 250px 0;
+    padding: 54px 0 0 0;
     background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/sendmail/master/img/sloy5.png);
 }
 .finish h5{
