@@ -11,7 +11,8 @@ body {
 .main-logo {
     margin: 0;
     height: 680px;
-    background-image: url(../img/background.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/sendmail/master/img/background.png);
+    background-size: cover;
 }
 h1 {
     text-align: center;
@@ -52,6 +53,7 @@ h2 {
     height: 512px;
 }
 .forest p {
+    margin-bottom: 50px;
     padding: 0 55px;
     font-size: 14px;
     line-height: 22px;
@@ -65,9 +67,7 @@ h2 {
     font-family: "Arial";
 }
 .forest a {
-    position: relative;
-    top: 76px;
-    left: 150px;
+    margin: 150px;
     padding: 13px 58px;
     background-color: #9f15a9;
     text-decoration: none;
@@ -101,7 +101,7 @@ h2 {
     text-align: center;
 }
 .sloy3 {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .present h3 span {
     font-size: 34px;
@@ -121,6 +121,7 @@ h2 {
     text-transform: uppercase;
 }
 .present h3 b{
+    display: inline-block;
     margin: 0;
     font-size: 21px;
     line-height: 22px;
@@ -141,7 +142,11 @@ h2 {
     font-family: "Arial";
     text-align: center; 
 }
+.live{
+    padding: 0 0 40px 0;
+}
 .live p{
+    margin-bottom: 55px;
     padding: 0 55px;
     font-size: 14px;
     line-height: 22px;
@@ -149,6 +154,7 @@ h2 {
     font-family: "Arial";
 }
 .live a{
+    height: 200px;
     font-size: 14px;
     line-height: 22px;
     color: #e8a336;
@@ -175,8 +181,8 @@ h2 {
 }
 .finish{
     margin: 0;
-    padding: 125px 0 300px 0;
-    background-image: url(../img/sloy5.png);
+    padding: 125px 0 250px 0;
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/sendmail/master/img/sloy5.png);
 }
 .finish h5{
     margin: 0;
@@ -193,7 +199,7 @@ h2 {
     font-family: "Arial";
     text-align: center;
 }
-.finish b{
+.finish a{
     text-decoration: underline;
     color: #b25000;
 }
@@ -202,10 +208,8 @@ h2 {
     font-weight: bold;
     color: #b25000;
 }
-.finish a{
-    margin: 15px;
+.finish1 a{
     text-align: center;
     height: 50px;
-    width: 50px;
     display: inline-block;
 }
