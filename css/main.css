@@ -6,7 +6,6 @@ body {
     width: 600px;
     max-height: 400px;
     background-color: #0d131b;
-
 }
 .main-logo {
     margin: 0;
@@ -50,7 +49,7 @@ h2 {
     color: #fa5d26;
     font-family: "Arial";
 }
-.cloy2 {
+.sloy2 {
     width: 600px;
     height: 512px;
 }
@@ -162,6 +161,10 @@ h2 {
     line-height: 22px;
     color: #e8a336;
     font-family: "Arial";
+}
+.twich a{
+    color:#fa5d26;
+    text-decoration: none~;
 }
 .live i{
     text-decoration: none;
