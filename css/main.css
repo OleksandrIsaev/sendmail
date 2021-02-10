@@ -67,8 +67,10 @@ h2 {
     color: #e8a336;
     font-family: "Arial";
 }
-.forest a {
-    margin: 150px;
+.botton{
+    text-align: center;
+}
+.botton a{
     padding: 13px 58px;
     background-color: #9f15a9;
     text-decoration: none;
@@ -106,7 +108,7 @@ h2 {
     padding-top: 30px;
 }
 .present h3 span {
-    font-size: 34px;
+    font-size: 30px;
     color: #20b4bb;
     font-weight: bold;
     font-family: "Arial";
@@ -220,4 +222,8 @@ h6{
     text-align: center;
     height: 50px;
     display: inline-block;
+}
+.finish1 a{
+    display: inline-block;
+    background-color: #fff;
 }
